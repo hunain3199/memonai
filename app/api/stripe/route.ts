@@ -5,7 +5,6 @@ import prismadb from "@/lib/prismadb";
 import { stripe } from "@/lib/stripe";
 import { absoluteUrl } from "@/lib/utils";
 
-
 const settingsUrl = absoluteUrl("/settings");
 
 export async function GET() {
@@ -44,7 +43,7 @@ export async function GET() {
           price_data: {
             currency: "USD",
             product_data: {
-              name: "Memon AI",
+              name: "Genius Pro",
               description: "Unlimited AI Generations"
             },
             unit_amount: 2000,
