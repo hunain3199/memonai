@@ -5,7 +5,7 @@ import { Prosto_One } from "next/font/google";
 import { NextResponse } from "next/server";
 import Replicate from "replicate"
 
-export const dynamic = 'force-dynamic'
+
 
 
 const replicate = new Replicate({

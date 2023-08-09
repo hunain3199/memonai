@@ -4,7 +4,7 @@ import { auth } from "@clerk/nextjs";
 
 import { NextResponse } from "next/server";
 import Replicate from "replicate"
-export const dynamic = 'force-dynamic'
+
 
 
 const replicate = new Replicate({

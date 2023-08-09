@@ -4,7 +4,7 @@ import { auth } from "@clerk/nextjs";
 import { NextResponse } from "next/server";
 import { Configuration, OpenAIApi } from "openai";
 
-export const dynamic = 'force-dynamic'
+
 const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY,
 });
