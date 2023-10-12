@@ -37,7 +37,7 @@ export async function POST(
     }
 
     const response = await replicate.run(
-      "nightmareai/cogvideo:00b1c7885c5f1d44b51bcb56c378abc8f141eeacf94c1e64998606515fe63a8d",
+      "fofr/damo-text2video:72db2d5426a1174a053bd20fc017cae38104886d780f517db89e8ac9059ea700",
       {
         input: {
           prompt: prompt
